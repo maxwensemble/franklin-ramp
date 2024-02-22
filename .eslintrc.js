@@ -1,14 +1,14 @@
 module.exports = {
-  root: true,
-  extends: 'airbnb-base',
-  env: {
-      browser: true,
-  },
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-      allowImportExportEverywhere: true,
-      sourceType: 'module',
-      requireConfigFile: false,
+    root: true,
+    extends: 'airbnb-base',
+    env: {
+        browser: true,
+    },
+    parser: '@babel/eslint-parser',
+    parserOptions: {
+        allowImportExportEverywhere: true,
+        sourceType: 'module',
+        requireConfigFile: false,
   },
   rules: {
       'indent': ['error', 4, { "SwitchCase": 1 }],
